@@ -1,0 +1,24 @@
+{
+  "name": "leader-domain",
+  "version": "1.0.0",
+  "license": "MIT",
+  "description": "A domain analysis leader plugin",
+  "keywords": [
+    "leader",
+    "domain",
+    "email",
+    "personal",
+    "disposable",
+    "interesting",
+    "plugin"
+  ],
+  "dependencies": {
+    "obj-case": "0.0.3",
+    "is-disposable-email": "0.0.1",
+    "is-personal-email": "0.0.1",
+    "extend": "~1.2.1"
+  },
+  "devDependencies": {
+    "mocha": "~1.15.1"
+  }
+}

@@ -17,11 +17,10 @@ module.exports = function () {
 /**
  * Create a domain leader plugin.
  *
- * @return {String} apiKey
  * @return {Function}
  */
 
-function plugin (apiKey) {
+function plugin () {
   return function domainPlugin (person, context, next) {
     var email = getEmail(person, context);
     if (!email) return next();
